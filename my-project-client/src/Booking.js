@@ -1,13 +1,14 @@
 import React from 'react'
 
-export default class Booking extends React.Component{
 
-    
+export default class Booking extends React.Component{
 
     render(){
         return(
             <>
-            Bookings
+            <div>
+                {this.props.booking.name} | {this.props.booking.appointment_type} | {this.props.booking.time}:00
+            </div>
             </>
         )
     }
