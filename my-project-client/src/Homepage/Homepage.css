@@ -1,0 +1,26 @@
+.homepage {
+    display: flex;
+    justify-content: space-between;
+    height: 92vh;
+    
+}
+
+.info {
+    width: 52vw;
+    /* background-color: blueviolet; */
+    align-self: center;
+    margin-top: -5em;
+}
+
+.images img {
+    width: 100%;
+    background-color: yellowgreen;
+    /* border: solid rgb(112, 35, 35); */
+}
+
+.images {
+    width: 48vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}

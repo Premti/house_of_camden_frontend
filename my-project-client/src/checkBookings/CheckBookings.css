@@ -1,0 +1,14 @@
+.even {
+    background-color: rgb(226, 225, 226);
+    padding: 2em;
+}
+
+.odd {
+    background-color: rgb(145, 194, 235);
+    padding: 2em;
+   
+}
+
+.add-booking .booking-name {
+    font-style: italic;
+}

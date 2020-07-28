@@ -1,19 +1,21 @@
 import React from 'react';
 import './App.css';
-import Login from "./Login.js"
+import Login from "./Login/Login.js"
 import {Switch, Route, Link, withRouter} from "react-router-dom"
-import BookingPage from "./BookingPage"
-import Homepage from "./Homepage"
-import Offers from "./Offers"
-import Prices from "./Prices"
-import CheckBookings from "./CheckBookings"
+import BookingPage from "./BookingPage/BookingPage"
+import Homepage from "./Homepage/Homepage"
+import Offers from "./Offers/Offers"
+import Prices from "./Prices/Prices"
+import CheckBookings from "./checkBookings/CheckBookings"
 import AllBookings from "./AllBookings"
+import NavBar from "./NavBar/NavBar"
 
 
 class App extends React.Component{
 
   state = {
       loggedInAdmin: null,
+      bookings: false
   }
 
   signIn = (username, token) => {
@@ -37,6 +39,10 @@ class App extends React.Component{
       .then(json => this.signIn(json.username, json.token))
     }
   }
+
+  showBookings = () => {
+    this.setState({bookings: !this.state.bookings})
+  }
   
   render(){
 
@@ -45,15 +51,9 @@ class App extends React.Component{
       
       
         
-          <Link to="/home">House Of Camden    </Link>
-          <Link to="/admin">Admin  </Link>
-          <Link to="/bookings">  Bookings </Link>
-          <Link to="/offers">  Offers </Link>
-          <Link to="/prices">  Prices </Link>
-          {this.state.loggedInAdmin && <Link to="/checkBookings">  Check bookings </Link> }
-          {this.state.loggedInAdmin && <Link to="/allTheBookings">  All Bookings </Link> }
-          <a href="https://www.instagram.com/houseofcamdensalon/">Instagram</a>
-
+          <NavBar loggedInAdmin={this.state.loggedInAdmin} onClick={this.showBookings}/>
+         {this.state.bookings && <BookingPage onClick={this.showBookings}/>}
+         <div className={this.state.bookings && "blur"}>
         <Switch>
           <Route path="/home">
             <Homepage />
@@ -95,6 +95,7 @@ class App extends React.Component{
       }
 
       </Switch>
+      </div>
     </div>
   );
   }

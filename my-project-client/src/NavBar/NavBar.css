@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    background-color: rgb(18, 26, 10);
+    padding: 1em;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    z-index: 10;
+}
+
+.navbar .home {
+    font-family: ;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white
+}
+
+.navbar .nav a {
+    margin: 0 0.5em;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    color: rgb(194, 91, 91)
+}
+
+.navbar .insta {
+    font-size: 1.5em;
+}
+
+.navbar button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+}
+

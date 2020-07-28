@@ -1,0 +1,49 @@
+.offers {
+    display: flex;
+    justify-content: space-between;
+    height: 92vh;
+    align-items: center;
+}
+
+.offers .offer-buttons {
+    background-color: violet;
+    width: 20vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: -20%;
+    justify-content: center;
+}
+
+.offers .offer-buttons span {
+    margin: 1em;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+
+}
+
+.offers .offer-buttons span:hover {
+   /* color: blue */
+    background-color: grey;
+}
+
+.offers .offer-buttons span:focus {
+    /* color: blue */
+    border: none
+ }
+
+.offers .offer-info {
+    width: 80vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.offers .offer-info .image {
+    width: 35vw;
+}
+
+.offers .offer-info .info {
+    width: 35vw;
+}
