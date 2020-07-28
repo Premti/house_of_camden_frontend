@@ -17,6 +17,8 @@ export default class BeautyList extends React.Component{
                     <br></br>
                     Full leg wax - £30
                     <br></br>
+                    Bikini line - £10
+                    <br></br>
                     Hollywood wax with hot wax - £35 or strip wax - £25 
                     <br></br>
                     Brazilian wax with hot wax - £30 or strip wax - £20 

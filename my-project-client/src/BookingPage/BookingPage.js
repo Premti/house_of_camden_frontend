@@ -86,10 +86,46 @@ export default class BookingPage extends React.Component{
                     
                     <select defaultValue="DEFAULT" type="text" name="appointment_type" onChange={this.handleInfoChange}>
                         <option value="DEFAULT" disabled>Select appointment</option>
-                        <option >Haircut</option>
-                        <option >Nails</option>
-                        <option >Manicure</option>
-                        <option >Wax</option>
+                        <option >3/4 arms </option>
+                        <option >3/4 leg wax </option>
+                        <option >Balayage </option>
+                        <option >Bikini line wax </option>
+                        <option >Brazilian blow dry </option>
+                        <option >Brazilian wax - strip </option>
+                        <option >Brazilian wax - hot wax </option>
+                        <option >Buttocks with hot wax </option>
+                        <option >Chin wax </option>
+                        <option >Deep cleanse, exfoliate, mask & massage </option>
+                        <option >Dip dye </option>
+                        <option >Dry cut</option>
+                        <option >Eyebrow thread </option>
+                        <option >Eyebrow tinting </option>
+                        <option >Eyelash tinting </option>
+                        <option >Eyebrow wax </option>
+                        <option >Full arms </option>
+                        <option >Full face including eyebrows </option>
+                        <option >Full head colour </option>
+                        <option >Full leg wax </option>
+                        <option >Half leg wax </option>
+                        <option >Half arms </option>
+                        <option >High definition eyebrows </option>
+                        <option >Highlight (full head) </option>
+                        <option >Highlight (half head) </option>
+                        <option >Highlight (T-zone) </option>
+                        <option >Hollywood wax - hot wax </option>
+                        <option >Hollywood wax - strip </option>
+                        <option >LVL eyelash </option>
+                        <option >Mens cut</option>
+                        <option >Mens wash & cut</option>
+                        <option >Repair Masque </option>
+                        <option >Root colour</option>
+                        <option >Side face wax </option>
+                        <option >Underarm - hot wax </option>
+                        <option >Upper lip wax </option>
+                        <option >Underarm - strip </option>
+                        <option >Wash & blowdry</option>
+                        <option >Wash, cut & blowdry</option>
+                        <option >Wash & cut</option>
                     </select>
                     <br></br>
                 </label>

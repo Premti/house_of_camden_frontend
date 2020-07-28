@@ -3,6 +3,8 @@
     justify-content: space-between;
     height: 92vh;
     align-items: center;
+    /* border-color: white;
+    border-width: 1em; */
 }
 
 .offers .offer-buttons {
@@ -13,6 +15,9 @@
     flex-direction: column;
     margin-top: -20%;
     justify-content: center;
+    margin-left: 2.5em;
+    border-radius: 1em;
+    
 }
 
 .offers .offer-buttons span {

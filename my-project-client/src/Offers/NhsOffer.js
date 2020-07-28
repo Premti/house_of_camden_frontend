@@ -8,11 +8,11 @@ export default class NhsOffer extends React.Component{
           
             <>
                 <div className="info">
+                    <h1>NHS Discount</h1>
                 20% off
                 
                 <p>
-                To thank all the incredible NHS workers
-                
+                To thank all the incredible NHS workers we'd like to offer 20% off of all treatments
                 </p>
                 </div>
                
