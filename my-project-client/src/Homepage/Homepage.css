@@ -35,6 +35,13 @@
     /* border: solid rgb(112, 35, 35); */
 }
 
+.homepage .info h4 {
+    position: fixed;
+    bottom: 0;
+    font-size: 12px;
+    font-style: italic;
+}
+
 .images {
     width: 48vw;
     display: grid;

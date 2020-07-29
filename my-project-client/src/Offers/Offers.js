@@ -38,7 +38,7 @@ export default class Offers extends React.Component{
             <div className="offers">
             <div className="offer-buttons">
             <span name="loyaltyBonus" onClick={this.handleLoyaltyClick}>Loyalty bonus </span>
-            <span name="birthdayDiscount" onClick={this.handleBirthdayClick}>Birthday Discount</span>
+            <span name="birthdayDiscount" onClick={this.handleBirthdayClick}>Special Offers</span>
             <span name="otherOffer" onClick={this.handleNhsClick}>Nhs Offer</span>
             </div>
             <div className="offer-info">

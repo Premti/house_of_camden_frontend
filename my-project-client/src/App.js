@@ -7,7 +7,7 @@ import Homepage from "./Homepage/Homepage"
 import Offers from "./Offers/Offers"
 import Prices from "./Prices/Prices"
 import CheckBookings from "./checkBookings/CheckBookings"
-import AllBookings from "./AllBookings"
+import AllBookings from "./checkBookings/AllBookings"
 import NavBar from "./NavBar/NavBar"
 
 

@@ -11,7 +11,7 @@ export default class NavBar extends React.Component{
         return(
          
             <div className="navbar">
-                <div className="home">
+                <div className="home" >
             <Link to="/home" >House Of Camden    </Link>
             </div>
             <div className="nav">

@@ -8,8 +8,11 @@ export default class Booking extends React.Component{
         return(
           
             <div className="a-booking">
-          <div className="name"> Name: {this.props.booking.name} </div>  <div>  Appointment: {this.props.booking.appointment_type} </div>
-          Time: {this.props.booking.time}:00 Number: {this.props.booking.phone_number} Email: {this.props.booking.email}
+          <h4 className="name"> Name: {this.props.booking.name} </h4>
+          <h4 className="time">Time: {this.props.booking.time}:00 </h4> 
+            <h4 className="appointment">  Appointment: {this.props.booking.appointment_type} </h4>
+           <h4 className="number">Number:{this.props.booking.phone_number} </h4>
+            <h4 className="email">Email: {this.props.booking.email}</h4> 
             </div>
        
         )

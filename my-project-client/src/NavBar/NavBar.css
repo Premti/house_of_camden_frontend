@@ -9,7 +9,9 @@
 }
 
 .navbar .home {
-    font-family: ;
+    font-family: Apple Chancery, cursive;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .navbar a {
@@ -23,16 +25,13 @@
 
 .navbar a:hover {
     cursor: pointer;
-    color: rgb(194, 91, 91)
+    color: #C13584
 }
 
 .navbar .insta {
     font-size: 1.5em;
 }
 
-.navbar .insta:hover{
-    color: black
-}
 
 .navbar button {
     color: white;

@@ -1,5 +1,5 @@
 import React from 'react'
-import RejectionEmail from "./RejectionEmail"
+import RejectionEmail from "../RejectionEmail"
 
 
 export default class ConfirmBookings extends React.Component{

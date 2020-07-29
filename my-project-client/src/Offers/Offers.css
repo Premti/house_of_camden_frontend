@@ -51,15 +51,28 @@
 
 .offers .offer-info .info {
     width: 35vw;
-    margin-top: -27em;
+    margin-top: -24em;
     margin-left: 2em;
 }
+
 
 .offers .offer-info .info h1 {
     font-weight: bold;
     text-decoration: underline;
     text-align: left;
 }
+
+.offers .offer-info .info p {
+    text-align: left;
+}
+
+.offers .offer-info .info h3 {
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
 
 .offers .offer-info .image1 {
     width: 35vw;
@@ -71,6 +84,12 @@
 
 .offers .offer-info .loyalty-info {
     width: 30vw;
+    margin-top: -19em;
+    margin-left: 2em;
+}
+
+.offers .offer-info .nhs-info {
+    width: 30vw;
     margin-top: -30em;
     margin-left: 2em;
 }
@@ -78,6 +97,12 @@
 .offers .offer-info .loyalty-info p {
    text-align: left;
 }
+.offers .offer-info .loyalty-info h3 {
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+ }
 
 .offers .offer-info .loyalty-info h1 {
     font-weight: bold;

@@ -1,18 +1,37 @@
 .even {
     background-color: rgba(226, 225, 226, 0.432);
     padding: 2em;
-    height: 1.5em;
+    height: 1em;
 }
 
 .odd {
     background-color: rgba(145, 195, 235, 0.575);
     padding: 2em;
-    height: 1.5em;
+    height: 1em;
    
 }
 
 .a-booking .name {
-    display: flex;
-    align-items: flex-end;
-    right: 10px;
+    margin-right: 75em;
+    margin-bottom: 2.5em;
+}
+
+.a-booking .time {
+    margin-top: -3.7em;
+    margin-right: 40em;
+}
+
+.a-booking .appointment {
+    margin-left: -5em;
+    margin-top: -2.65em;
+}
+
+.a-booking .number {
+    margin-right: -25em;
+    margin-top: -2.45em;
+}
+
+.a-booking .email {
+   margin-right: -60em;
+   margin-top: -2.45em;
 }
