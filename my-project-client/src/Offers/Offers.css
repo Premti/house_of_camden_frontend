@@ -8,7 +8,7 @@
 }
 
 .offers .offer-buttons {
-    background-color: violet;
+    background-color: rgb(51, 51, 51);
     width: 20vw;
     height: 40vh;
     display: flex;
@@ -17,7 +17,7 @@
     justify-content: center;
     margin-left: 2.5em;
     border-radius: 1em;
-    
+    color: white;
 }
 
 .offers .offer-buttons span {
@@ -51,4 +51,36 @@
 
 .offers .offer-info .info {
     width: 35vw;
+    margin-top: -27em;
+    margin-left: 2em;
 }
+
+.offers .offer-info .info h1 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.offers .offer-info .image1 {
+    width: 35vw;
+    transform: scale(0.27, 0.27);
+    -ms-transform: scale(0.27, 0.27);
+    -webkit-transform: scale(0.27, 0.27);
+    margin-left: 0em;
+}
+
+.offers .offer-info .loyalty-info {
+    width: 30vw;
+    margin-top: -30em;
+    margin-left: 2em;
+}
+
+.offers .offer-info .loyalty-info p {
+   text-align: left;
+}
+
+.offers .offer-info .loyalty-info h1 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+ }

@@ -7,7 +7,7 @@ import "./Offers.css"
 export default class Offers extends React.Component{
 
     state = {
-        loyaltyBonus: false,
+        loyaltyBonus: true,
         birthdayDiscount: false,
         otherOffer: false
     }

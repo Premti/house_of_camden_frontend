@@ -7,14 +7,31 @@
 
 .info {
     width: 52vw;
-    /* background-color: blueviolet; */
+    /* background-color: rgba(66, 65, 66, 0.219); */
     align-self: center;
-    margin-top: -5em;
+    margin-top: -2em;
+    /* justify-content: flex-end; */
 }
 
+.homepage .info h1 {
+   color: rgb(65, 5, 65);
+   font-style: italic;
+   font-weight: bold;   
+   font-size: 62px;
+   font-family: Apple Chancery, cursive;
+   margin-top: -3em;
+}
+
+.homepage .info p {
+    font-family: Optima, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    justify-content: center;
+    margin: 10%;
+    margin-top: -1em;
+}
 .images img {
     width: 100%;
-    background-color: yellowgreen;
     /* border: solid rgb(112, 35, 35); */
 }
 

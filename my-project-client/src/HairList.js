@@ -20,7 +20,7 @@ export default class PricesList extends React.Component{
                    <br></br>
                    Mens wash & cut - £25
                    <br></br>
-                   Mens dry cut - £25
+                   Mens dry cut - £20
                </p>
                <h3 style={{fontWeight: 'bold'}}>Colour</h3>
                <p style={{fontStyle: 'italic', fontWeight: 'bold'}}> 

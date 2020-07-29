@@ -47,7 +47,7 @@ export default class CheckBookings extends React.Component{
         return(
             <>
             <div>
-               <h2> The current bookings for {this.state.date}</h2><hr></hr>
+               <h2> The current bookings for {this.state.date}</h2>
                 {
                     this.state.allBookings !== null 
                     ? this.todaysBookings() 

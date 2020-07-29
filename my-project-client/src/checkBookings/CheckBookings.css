@@ -1,14 +1,18 @@
 .even {
-    background-color: rgb(226, 225, 226);
+    background-color: rgba(226, 225, 226, 0.432);
     padding: 2em;
+    height: 1.5em;
 }
 
 .odd {
-    background-color: rgb(145, 194, 235);
+    background-color: rgba(145, 195, 235, 0.575);
     padding: 2em;
+    height: 1.5em;
    
 }
 
-.add-booking .booking-name {
-    font-style: italic;
+.a-booking .name {
+    display: flex;
+    align-items: flex-end;
+    right: 10px;
 }

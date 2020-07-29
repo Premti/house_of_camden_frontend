@@ -14,7 +14,16 @@ export default class Homepage extends React.Component{
             
             <div className="homepage">
                 <div className="info">
-                    info
+                    <h1>   Welcome to house of camden! </h1>
+                    {/* <p style={{fontFamily: 'Optima, sans-serif', fontSize: "25px", 
+                     fontStyle: 'italic', width: "70%"}}> */}
+                     <p>
+                    Located a few minutes away from Kings cross, Euston and right next to Morning Crescent.
+                    House of Camden is a stylish grooming parlour treating both ladies and men. At their iconic home in one of the most
+                    vibrant area's of London, Camden town. We offer beauty treatments and extensive hair services, bespoke for your
+                    personality and style.</p>
+
+                    
                 </div>
                 <div className="images">
                     <img src={image1} alt=""/> 

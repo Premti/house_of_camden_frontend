@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    background-color: rgb(18, 26, 10);
+    background-color: rgb(51, 51, 51);
     padding: 1em;
     justify-content: space-between;
     align-items: flex-end;
@@ -28,6 +28,10 @@
 
 .navbar .insta {
     font-size: 1.5em;
+}
+
+.navbar .insta:hover{
+    color: black
 }
 
 .navbar button {

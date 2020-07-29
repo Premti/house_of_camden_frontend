@@ -1,5 +1,4 @@
 import React from 'react'
-import BookingComplete from "../BookingComplete"
 import "./BookingPage.css"
 
 export default class BookingPage extends React.Component{
