@@ -11,8 +11,8 @@ export default class BirthdayDiscount extends React.Component{
                 <h1>Special Offers</h1>
                 <p>
                     Not only do we love seeing familiar faces but also new faces!
-                As a welcome gesture we'd like to give customers 20% off on all treatments booked online.
-                On top of that we are also giving 20% off all treatments for referrals on new clients.
+                As a welcome gesture we'd like to give customers 20% off on all treatments booked online for your first visit.
+                On top of that we are also giving 15% off all treatments for referrals on new clients.
                 </p>
                 <h3>Terms & Conditions</h3>
                 <p>

@@ -10,8 +10,8 @@ export default class NhsOffer extends React.Component{
                 <div className="info">
                     <h1>Nhs Discount</h1>
                     <p>
-                        To thank and show support to all NHS workers we are giving a 25% discount on all treatments
-                        from Monday-Thursday.
+                        To thank and show support to all NHS workers we are giving a 25% discount on all treatments.
+                        
                     </p>
                     <h3>Terms & Conditions</h3>
                     <p>

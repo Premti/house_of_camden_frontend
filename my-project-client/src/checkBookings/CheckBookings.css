@@ -1,37 +1,107 @@
 .even {
     background-color: rgba(226, 225, 226, 0.432);
-    padding: 2em;
-    height: 1em;
+    padding: 2em 0 0 0;
+    min-height: 1em;
+    width: 100vw;
 }
 
 .odd {
     background-color: rgba(145, 195, 235, 0.575);
-    padding: 2em;
-    height: 1em;
-   
+    padding: 2em 0 0 0;
+    min-height: 1em;
+   width: 100vw;
 }
 
-.a-booking .name {
-    margin-right: 75em;
-    margin-bottom: 2.5em;
+.a-booking {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    margin-left: -4em;
 }
 
-.a-booking .time {
-    margin-top: -3.7em;
-    margin-right: 40em;
+.a-booking button {
+    height: 2em;
+    margin: 0.5em;
 }
 
-.a-booking .appointment {
-    margin-left: -5em;
-    margin-top: -2.65em;
+.a-booking .buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: -1.9em;
 }
 
-.a-booking .number {
-    margin-right: -25em;
-    margin-top: -2.45em;
+
+
+.rejection-email {
+   height: 10vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .rejection-email textarea {
+      width: 50em;
+      height: 4.5em;
+      margin: 1em;
+  }
+
+  .rejection-email button {
+    -webkit-appearance:  none; 
+    border-radius:  24px; 
+    text-align:  center; 
+    padding:  15px 40px;
+    margin-top:  5px; 
+    background-color: rgb(65, 5, 65);
+    color:  #fff; 
+    font-size:  14px;
+    font-weight:  500; 
+    box-shadow:  0px 2px 6px -1px rgba(0,0,0,.13); 
+    border:  none;
+    transition:  all .3s ease; 
+    outline: 0; 
+  }
+
+  .rejection-email button {
+    transform:  translateY(-3px);
+    box-shadow:  0 2px 6px -1px rgba(primary, .65);
 }
 
-.a-booking .email {
-   margin-right: -60em;
-   margin-top: -2.45em;
+.a-booking .buttons .confirm {
+    -webkit-appearance:  none; 
+    border-radius:  24px; 
+    /* text-align:  center;  */
+    padding: 0px 15px;
+    margin-top:  10px; 
+    background-color: rgb(38, 156, 68);
+    color:  #fff; 
+    /* font-size:  14px; */
+    font-weight:  500; 
+    box-shadow:  0px 2px 6px -1px rgba(0,0,0,.13); 
+    border:  none;
+    transition:  all .3s ease; 
+    outline: 0; 
+}
+
+.a-booking .buttons .reject {
+    -webkit-appearance:  none; 
+    border-radius:  24px; 
+    /* text-align:  center;  */
+    padding: 0px 15px;
+    margin-top:  12px; 
+    background-color: rgb(170, 45, 66);
+    color:  #fff; 
+    /* font-size:  14px; */
+    font-weight:  500; 
+    box-shadow:  0px 2px 6px -1px rgba(0,0,0,.13); 
+    border:  none;
+    transition:  all .3s ease; 
+    outline: 0; 
+}
+
+.a-booking .booking-confirmed {
+    color: green
+}
+
+.a-booking .booking-rejected {
+    color: red
 }

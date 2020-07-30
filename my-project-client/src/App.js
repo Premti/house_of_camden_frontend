@@ -55,7 +55,7 @@ class App extends React.Component{
          {this.state.bookings && <BookingPage onClick={this.showBookings}/>}
          <div className={this.state.bookings && "blur"}>
         <Switch>
-          <Route path="/home">
+          <Route exact path="/home">
             <Homepage />
           </Route>
       <Route exact path="/admin" render={routerProps => 
@@ -69,15 +69,15 @@ class App extends React.Component{
       
       </Route>
 
-      <Route path="/bookings">
+      <Route exact path="/bookings">
         <BookingPage />
       </Route>
 
-      <Route path="/offers">
+      <Route exact path="/offers">
         <Offers />
       </Route>
 
-      <Route path="/prices">
+      <Route exact path="/prices">
         <Prices />
       </Route>
 

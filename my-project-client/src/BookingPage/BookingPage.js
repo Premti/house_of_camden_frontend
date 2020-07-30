@@ -128,7 +128,7 @@ export default class BookingPage extends React.Component{
                     </select>
                     <br></br>
                 </label>
-                <input placeholder="select appointment" type="submit" value="submit" />
+                <button placeholder="select appointment" type="submit" > Book </button>
                 </form>
             
 

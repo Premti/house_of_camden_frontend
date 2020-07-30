@@ -1,5 +1,6 @@
 import React from 'react'
 import ConfirmBookings from "./ConfirmBookings"
+import "./CheckBookings.css"
 
 export default class AllBookings extends React.Component{
 
@@ -7,8 +8,12 @@ export default class AllBookings extends React.Component{
     constructor(){
         super()
         this.state = {
-        allBookings: [],
+        allBookings: []
     }}
+
+    renderRejectionEmail = () => {
+        this.setState({emailRejected : true})
+    }
 
     componentDidMount(){
         fetch("http://localhost:3000/check_all_bookings")
@@ -25,19 +30,21 @@ export default class AllBookings extends React.Component{
     render(){
         
         
-        const renderBookings = this.state.allBookings.map((booking) => 
-            <ConfirmBookings key={booking.id} booking={booking} />
+        const renderBookings = this.state.allBookings.map((booking, index) => 
+           <div key={booking.id}  className={` ${index%2===0 ? "even" : "odd"} `}> <ConfirmBookings  booking={booking}  
+           /></div> 
         )
 
        
         return(
-            <>
+         
             <div>
-                The current bookings
+                <h2>The current bookings</h2>
+                <br></br>
                 {renderBookings}
                 
             </div>
-            </>
+           
         )
     }
 }

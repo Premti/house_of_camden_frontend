@@ -15,8 +15,8 @@ export default class NavBar extends React.Component{
             <Link to="/home" >House Of Camden    </Link>
             </div>
             <div className="nav">
-          <Link to="/admin">Admin  </Link>
-          <button onClick={() => this.props.onClick()}>  Bookings </button>
+          {/* <Link to="/admin">Admin  </Link> */}
+          <button onClick={() => this.props.onClick()}>  Book an appointment </button>
           <Link to="/offers">  Offers </Link>
           <Link to="/prices">  Prices </Link>
           {this.props.loggedInAdmin && <Link to="/checkBookings">  Check bookings </Link> }

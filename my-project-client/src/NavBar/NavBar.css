@@ -40,3 +40,6 @@
     font-size: 1em;
 }
 
+.navbar button:hover {
+    color: #C13584
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import RejectionEmail from "../RejectionEmail"
+import RejectionEmail from "./RejectionEmail"
 
 
 export default class ConfirmBookings extends React.Component{
@@ -68,24 +68,26 @@ export default class ConfirmBookings extends React.Component{
 
     render(){
         return(
-            <>
-            <div>
+          <div >
+            <div className="a-booking">
                 <br></br>
-                {this.props.booking.name} | {this.props.booking.appointment_type} | {this.props.booking.date} | {this.props.booking.time}:00
-                | {this.props.booking.email} | {this.props.booking.phone_number} 
+                <h4>{this.props.booking.name}</h4> <h4> {this.props.booking.appointment_type}</h4> <h4> {this.props.booking.date}</h4> <h4> {this.props.booking.time}:00</h4>
+                <h4> {this.props.booking.email}</h4><h4> {this.props.booking.phone_number} </h4>
                 {
                     this.props.booking.confirmed
-                    ? <span>  - Confirmed!</span>  
+                    ? <h4 className="booking-confirmed">   Confirmed!</h4>  
                     : this.props.booking.message
-                    ? <span>  - Rejected!</span>
-                    : <>
-                        <button onClick={this.handleConfirmation}>Confirm</button>
-                        <button onClick={this.renderRejectionEmail}>Reject</button>
-                    </>
+                    ? <h4 className="booking-rejected">   Rejected!</h4>
+                    : <div className="buttons">
+                        <button className="confirm" onClick={this.handleConfirmation}>Confirm</button>
+                        <button className="reject" onClick={this.renderRejectionEmail}>Reject</button>
+                    </div>
                 }
-                {this.state.emailRejected ? <RejectionEmail handleSubmit={this.handleSubmit} rejection={this.handleChange}/> : null}
             </div>
-            </>
+           
+                {this.state.emailRejected ? <RejectionEmail  handleSubmit={this.handleSubmit} rejection={this.handleChange}/> : null}
+                
+            </div>
         )
     }
 }
